@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return `
                     <div class="tarjetaProducto">
                         <div class="imagenProducto">
-                            <img src="${producto.imagen}" 
+                            <img src="${producto.imageng}" 
                                  alt="${producto.nombre}" 
                                  class="producto-img"
                                  width="401"
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const tarjetaHTML = `
                         <div class="tarjetaProducto">
                             <div class="imagenProducto">
-                                <img src="${producto.imagen}" 
+                                <img src="${producto.imageng}" 
                                      alt="${producto.nombre}" 
                                      class="producto-img"
                                      width="401"

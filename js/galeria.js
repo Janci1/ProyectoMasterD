@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cajaProductosTipo = document.querySelector('.tienda .cajaProductoPorTipo');
 
     //datos de los productos
-    fetch('/js/productos.json')
+    fetch('../js/productos.json')
         .then(function(response) {
             return response.json();
         })
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
 $(document).ready(function() {
     //Cargar los datos
     let productos = [];
-    $.getJSON('/js/productos.json', function(data) {
+    $.getJSON('../js/productos.json', function(data) {
         productos = data;
     });
 

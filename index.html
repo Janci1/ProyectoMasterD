@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Ropa de influencia asiatica, inspirada en los animes y la cultura japonesa. \n Ropa de buena calidad y al mejor precio.">
+        <meta name="robots" content="NOFOLLOW">
+        <meta name="Author" content="Francisco Cisneros">
+        <meta name="Keywords" content="Ropa, Tienda anime, Asia, Anime">
+        <meta name="lang" content="es">
+        <meta name="revisit-after" content="2 days">
+        <meta name="category" content="store">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="icon" href="images/dragonball.ico">
+        <title>Otaku - Tienda de practica - Sitio Web</title>
+    </head>
+    <body>
+        <header>
+            <div class ="cabeceraDeContenido">
+                <div class="buscadorMapa">
+                    <ul class="grupoBuscador">
+                        <li>
+                            <a href="views/contacto.html">
+                                <img  class="imagenesContenido"
+                                src="images/ubicacionMarca.png" 
+                                alt="puntero de ubicacion"
+                                height="512"
+                                width="512">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div >
+                    <a href="index.html">
+                        <img class="logoPrincipal"
+                        src="images/logodeMomento.png" 
+                        alt="logotipo principal"
+                        height="1597"
+                        width="499">
+                    </a>
+                    </div>
+                <div class="menuDePerfil">
+                    <ul>
+                        <li>
+                            <a href="views/galeria.html">
+                                <img  class="imagenesContenido"
+                                src="images/favMarca.png" 
+                                alt="corazon favoritos"
+                                height="512"
+                                width="512">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="views/contacto.html">
+                                <img  class="imagenesContenido"
+                                src="images/perfilMarca.png" 
+                                alt="usuario personal"
+                                height="512"
+                                width="512">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="views/presupuesto.html" class="cesta">
+                                <span id="contadorCesta">0</span>
+                                <img  class="imagenesContenido"
+                                src="images/compraMarca.png" 
+                                alt="carrito compra"
+                                height="512"
+                                width="512">
+                            </a>
+                        </li>
+                    </ul>                
+                </div>
+            </div>
+            <div class="zonaNavegadorNovedades">
+                <nav class="navegadorDeContenidos">
+                    <ul>
+                        <li>
+                            <a class="navegadorSeleccionado" href="index.html">INICIO</a>
+                        </li>
+                        <li>
+                            <a class="contenidos" href="views/galeria.html">PRODUCTOS</a>
+                        </li>
+                        <li>
+                            <a class="contenidos" href="views/presupuesto.html">PRESUPUESTOS</a>
+                        </li>
+                        <li>
+                            <a class="contenidos" href="views/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- seccion del slider -->
+            <section class="contenedor">
+                <h1 class="uno">uno</h1>
+                <div class="slider" id="slider">
+                    <div class="slideSeccion">
+                        <img 
+                            class="sliderImagen"
+                            src="images/banners/banner1.jpg" 
+                            alt="banner1" 
+                            width="1082"
+                            height="340">
+                    </div>                
+                    <div class="slideSeccion">
+                        <img 
+                            class="sliderImagen"
+                            src="images/banners/banner2.jpg" 
+                            alt="banner2" 
+                            width="1082"
+                            height="340">
+                    </div>
+                    <div class="slideSeccion">
+                        <img 
+                            class="sliderImagen"    
+                            src="images/banners/banner3.jpg" 
+                            alt="banner3" 
+                            width="1082"
+                            height="340">
+                    </div>
+                    <div class="slideSeccion">
+                        <img 
+                            class="sliderImagen"
+                            src="images/banners/banner4.jpg" 
+                            alt="banner4" 
+                            width="1082"
+                            height="340"> 
+                    </div>
+                </div>
+                <div class="botonesSeleccion">
+                    <button class="anterior">&#10094;</button>
+                    <button class="siguiente">&#10095;</button>
+                </div>
+                
+                <div class="indicadores"><!--aqui se generaran los indicadores del slider--></div>
+                
+            </section>
+            <!-- seccion de productos -->
+            <section class="productosVenta">
+                <div class="tituloProductos">
+                    <h2>LOS MÁS VENDIDOS</h2>
+                </div>
+                <div class="cajaProductos">              
+                    <!-- Aqui se generaran los productos desde el archivo JSON-->
+                </div>
+            
+            </section>
+            <!-- seccion de noticias -->
+            <section class="reportaje">
+                <div class="tituloNoticias">
+                    <h2>NOTICIAS RECIENTES</h2>
+                </div>
+                <div class="cajaNoticiasPosicion" id="cajaNoticias">
+                    <!-- Aquí se cargarán las noticias -->
+                </div>
+            </section>
+            <!-- seccion de videos -->
+            <section class="videoContenedor">
+                <div class="videoBox"> 
+                    <div class="primero">             
+                        <div class="textoVideo">
+                            <h1>¡La tendencia en Asia!</h1>
+                            <p>Diseños top en el estilo urbano en asia, enterate de todas las novedades en la moda de extremo oriente, grandes marcas, telas de alta calidad.</p>
+                            <p>Exclusividad en su maxima expresion.</p>
+                            <p><br><br>Ser <strong>OTAKU</strong> es un orgullo.<br><strong>#ORGULLOTAKU #MARCA</strong></p>
+                        </div>
+                        <video preload="auto" controls class="videoInteractivo" data-src="images/video/videopg.mp4">
+                            <source src="images/video/videopg.mp4" type="video/mp4">
+                            No se puede reproducir el video.
+                        </video>
+                    </div>
+                    <div class="segundo"> 
+                        <iframe class="videoInteractivo" src="https://www.youtube.com/embed/-AumJj6S7Us" 
+                        title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                        </iframe>
+                        <div class="textoVideo">
+                            <h1>¡Las marcas de moda!</h1>
+                            <p>Las marcas de moda mas importantes en japon, son un elemento importante para entender sus conceptos y diseños de alta costura.</p>
+                            <p>Ultimas tendencias en moda asiatica.</p>
+                            <p><br><br>Ser <strong>OTAKU</strong> es un orgullo.<br><strong>#ORGULLOTAKU #MARCA</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- seccion de secciones -->
+            <section class="accesoSecciones">
+                <div class="textoAccesoSecciones">
+                    <h2>NUESTRAS SECCIONES</h2>
+                </div>
+                <div class="contenedorSecciones">
+                    <div class="seccionCamisetas seccionesIndividuales">
+                        <a href="views/galeria.html#Camisetas">
+                            <img src="images/imagenes/camisetas.jpg" alt="seccionCamisetas" width="500" height="750">
+                        </a>
+                        <div class="posicionCentral ">
+                            <a href="/" class="linksTexto">CAMISETAS</a>
+                        </div>
+                    </div>
+                    <div class="seccionSudaderas seccionesIndividuales">
+                        <a href="views/galeria.html#Sudaderas">
+                            <img src="images/imagenes/sudaderas.jpg" alt="seccionSudaderas" width="500" height="750">
+                        </a>
+                        <div class="posicionCentral">
+                            <a href="/" class="linksTexto">SUDADERAS</a>
+                        </div>
+                    </div>
+                    <div class="seccionKimonos seccionesIndividuales">
+                        <a href="views/galeria.html#Kimonos">
+                            <img src="images/imagenes/kimonos.jpg" alt="seccionKimonos" width="500" height="750">
+                        </a>
+                        <div class="posicionCentral">
+                            <a href="/" class="linksTexto">KIMONOS</a>
+                        </div>
+                    </div>
+                    <div class="seccionFullpacks seccionesIndividuales">
+                        <a href="/views/galeria.html">
+                            <img src="images/imagenes/packs.jpg" alt="seccionFullpacks" width="500" height="750">
+                        </a>
+                        <div class="posicionCentral">
+                            <a href="/" class="linksTexto">PRODUCTOS</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer">
+                <div class="logoFoot">
+                    <div class="cajaLogo">
+                        <img src="images/logodeMomento.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="politicas">
+                    <div class="direccion" id="ubicacion">
+                        <div>
+                            <h3>Puedes encontrarnos en</h3>
+                            <p> C/ Carretas #12  Madrid</p>
+                            <P> Tlf: 658 5258 256</P>
+                        </div>
+                        <div class="cajaRedes">
+                            <a href="https://www.instagram.com/">
+                                <img src="images/instagram.png" alt="">
+                            </a>
+                            <a href="https://www.tiktok.com/es/">
+                                <img src="images/tiktok.png" alt="">
+                            </a>
+                            <a href="https://www.youtube.com/?hl=es&gl=ES">                            
+                                <img src="images/youTube.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="privacidad">
+                        <h3>Politica de privacidad</h3>
+                        <p> A través de este sitio web no se recaban datos de carácter personal de las personas<br> 
+                            usuarias sin su conocimiento, ni se ceden a terceros. <br>
+                            <br>
+                            Con la finalidad de ofrecerle el mejor servicio y con el objeto de facilitar el uso,<br> 
+                            se analizan el número de páginas visitadas, el número de visitas, así como <br>
+                            la actividad de las persona visitantes y su frecuencia de utilización.<br> 
+                            A estos efectos, la Agencia Española de Protección de Datos (AEPD) <br>
+                            utiliza la información estadística elaborada por el Proveedor de Servicios de Internet.</p>
+                    </div>
+                </div> 
+            </div>
+        </footer>
+        <!-- este es la ventana galeria-->
+        <div id="ventanaGaleria">
+            <div class="galeria">
+                <span class="cerrarGaleria">&times;</span>
+                <img src="images/placeholder.png" class="imagenAmpliada" id="imagenGaleria" alt="Imagen del producto">
+                <div class="infoProducto">
+                    <h2 id="nombreProducto">Nombre del Producto</h2>
+                    <p id="descripcionProducto">Descripción del producto</p>
+                    <p id="precioProducto">Precio: €</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/carrito.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

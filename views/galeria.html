@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ropa de influencia asiatica, inspirada en los animes y la cultura japonesa. \n Ropa de buena calidad y al mejor precio.">
+    <meta name="robots" content="NOFOLLOW">
+    <meta name="Author" content="Francisco Cisneros">
+    <meta name="Keywords" content="Ropa, Tienda anime, Asia, Anime">
+    <meta name="lang" content="es">
+    <meta name="revisit-after" content="2 days">
+    <meta name="category" content="store">
+    <link rel="icon" href="../images/dragonball.ico">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <title>Productos de practica - Sitio Web</title>
+</head>
+<body>
+    <header>
+        <div class ="cabeceraDeContenido">
+            <div class="buscadorMapa">
+                <ul class="grupoBuscador">
+                    <li>
+                        <a href="contacto.html">
+                            <img  class="imagenesContenido"
+                            src="../images/ubicacionMarca.png" 
+                            alt="puntero de ubicacion"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div >
+                <a href="../index.html">
+                    <img class="logoPrincipal"
+                    src="../images/logodeMomento.png" 
+                    alt="logotipo principal"
+                    height="1597"
+                    width="499">
+                </a>
+                </div>
+            <div class="menuDePerfil">
+                <ul>
+                    <li>
+                        <a href="galeria.html">
+                            <img  class="imagenesContenido"
+                            src="../images/favMarca.png" 
+                            alt="corazon favoritos"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            <img  class="imagenesContenido"
+                            src="../images/perfilMarca.png" 
+                            alt="usuario personal"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="presupuesto.html" class="cesta">
+                            <span id="contadorCesta">0</span>
+                            <img  class="imagenesContenido"
+                            src="../images/compraMarca.png" 
+                            alt="carrito compra"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+        <div class="zonaNavegadorNovedades">
+            <nav class="navegadorDeContenidos">
+                <ul>
+                    <li>
+                        <a class="contenidos" href="../index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a class="navegadorSeleccionado" href="galeria.html">PRODUCTOS</a>
+                    </li>
+                    <li>
+                        <a class="contenidos" href="presupuesto.html">PRESUPUESTOS</a>
+                    </li>
+                    <li>
+                        <a class="contenidos" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="productosVenta">
+            <div class="tituloSuperventas" >
+                <h2>LOS MÁS VENDIDOS</h2>
+            </div>
+            <div class="cajaProductos">              
+                <!-- Aqui se generaran los productos desde el archivo JSON-->
+            </div>            
+        </div>
+        <div class="tienda">
+            <div class="cajaProductoPorTipo">
+                <!-- Aqui se generaran los productos desde el archivo JSON-->
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="logoFoot">
+                <div class="cajaLogo">
+                    <img src="../images/logodeMomento.png" alt="">
+                </div>
+                
+            </div>
+            <div class="politicas">
+                <div class="direccion" id="ubicacion">
+                    <div>
+                        <h3>Puedes encontrarnos en</h3>
+                        <p> C/ Carretas #12  Madrid</p>
+                        <P> Tlf: 658 5258 256</P>
+                    </div>
+                    <div class="cajaRedes">
+                        <a href="https://www.instagram.com/">
+                            <img src="../images/instagram.png" alt="">
+                        </a>
+                        <a href="https://www.tiktok.com/es/">
+                            <img src="../images/tiktok.png" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/?hl=es&gl=ES">                            
+                            <img src="../images/youTube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="privacidad">
+                    <h3>Politica de privacidad</h3>
+                    <p> A través de este sitio web no se recaban datos de carácter personal de las personas<br> 
+                        usuarias sin su conocimiento, ni se ceden a terceros. <br>
+                        <br>
+                        Con la finalidad de ofrecerle el mejor servicio y con el objeto de facilitar el uso,<br> 
+                        se analizan el número de páginas visitadas, el número de visitas, así como <br>
+                        la actividad de las persona visitantes y su frecuencia de utilización.<br> 
+                        A estos efectos, la Agencia Española de Protección de Datos (AEPD) <br>
+                        utiliza la información estadística elaborada por el Proveedor de Servicios de Internet.</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- este es la ventana galeria-->
+    <div id="ventanaGaleria">
+        <div class="galeria">
+            <span class="cerrarGaleria">&times;</span>
+            <img src="../images/placeholder.png" class="imagenAmpliada" id="imagenGaleria" alt="Imagen del producto">
+            <div class="infoProducto">
+                <h2 id="nombreProducto">Nombre del Producto</h2>
+                <p id="descripcionProducto">Descripción del producto</p>
+                <p id="precioProducto">Precio: €</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/galeria.js"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

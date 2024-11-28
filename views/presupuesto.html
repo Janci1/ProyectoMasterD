@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ropa de influencia asiatica, inspirada en los animes y la cultura japonesa. \n Ropa de buena calidad y al mejor precio.">
+    <meta name="robots" content="NOFOLLOW">
+    <meta name="Author" content="Francisco Cisneros">
+    <meta name="Keywords" content="Ropa, Tienda anime, Asia, Anime">
+    <meta name="lang" content="es">
+    <meta name="revisit-after" content="2 days">
+    <meta name="category" content="store">
+    <link rel="icon" href="../images/dragonball.ico">
+    <link rel="stylesheet" href="../css/presupuestos.css">
+    <title>Presupuesto de practica - Sitio Web</title>
+</head>
+<body>
+    <header>
+        <div class ="cabeceraDeContenido">
+            <div class="buscadorMapa">
+                <ul class="grupoBuscador">
+                    <li>
+                        <a href="contacto.html">
+                            <img  class="imagenesContenido"
+                            src="../images/ubicacionMarca.png" 
+                            alt="puntero de ubicacion"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div >
+                <a href="../index.html">
+                    <img class="logoPrincipal"
+                    src="../images/logodeMomento.png" 
+                    alt="logotipo principal"
+                    height="1597"
+                    width="499">
+                </a>
+                </div>
+            <div class="menuDePerfil">
+                <ul>
+                    <li>
+                        <a href="galeria.html">
+                            <img  class="imagenesContenido"
+                            src="../images/favMarca.png" 
+                            alt="corazon favoritos"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            <img  class="imagenesContenido"
+                            src="../images/perfilMarca.png" 
+                            alt="usuario personal"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="presupuesto.html" class="cesta">
+                            <span id="contadorCesta">0</span>
+                            <img  class="imagenesContenido"
+                            src="../images/compraMarca.png" 
+                            alt="carrito compra"
+                            height="512"
+                            width="512">
+                        </a>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+        <div class="zonaNavegadorNovedades">
+            <nav class="navegadorDeContenidos">
+                <ul>
+                    <li>
+                        <a class="contenidos" href="../index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a class="contenidos" href="galeria.html">PRODUCTOS</a>
+                    </li>
+                    <li>
+                        <a class="navegadorSeleccionado" href="Presupuesto.html">PRESUPUESTOS</a>
+                    </li>
+                    <li>
+                        <a class="contenidos" href="Contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- seccion main de la pagina -->
+    <main>
+          <!-- Lista del carrito -->
+          <section class="listaCarrito">
+            <h2>Carrito de Compras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="productosCarrito">
+                    <!-- Productos carrito -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Resumen de compra -->
+        <section class="resumenCompra">
+            <h2>Resumen</h2>
+            <p>Total de productos: <span id="cantidadTotal">0</span></p>
+            <p>Precio: <span id="precioTotal">0.00 €</span></p>
+            <p>Opcion elegida: <span id="productoElegido">Ninguna</span></p>
+            <p>Plazo elegido: <span id="plazoElegido">0 días</span></p>
+            <p class="extrasSeleccionados">Extras seleccionados:<br><span id="extrasResumen">Ninguno</span></p>
+            <p>Subtotal: <span id="subtotal">0.00 €</span></p>
+            <p>IVA (21%): <span id="iva">0.00 €</span></p>
+            <p class="totalCalculo"><strong>Total: <span id="total">0.00 €</span></strong></p>
+        </section>
+
+        <!-- Opciones de presupuesto -->
+        <section class="opcionesPresupuesto">
+            <h2>Opciones de Envio</h2>
+            <form id="formularioPresupuesto">
+                <div class="eleccionProducto">
+                    <label for="producto">Producto:</label>
+                    <select id="producto">
+                        <option value="premium" data-precio="0">Elige una opción</option>
+                        <option value="clasico" data-precio="30">Clásico - 30 €</option>
+                        <option value="normal" data-precio="50">Normal - 50 €</option>
+                        <option value="premium" data-precio="100">Premium - 100 €</option>
+                    </select>
+                </div>
+                <div class="plazo">
+                    <label for="plazo">Plazo (días):</label>
+                    <input type="number" id="plazo" min="1" value="1">
+                </div>
+                <div class="extras">
+                    <label class="tituloExtras">Extras:</label>
+                    <div class="opcionesExtras">
+                        <div>
+                            <input type="checkbox" id="extra1" value="5">
+                            <label for="extra1">Seguro (+5 €)</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="extra2" value="10">
+                            <label for="extra2">Envoltura (+10 €)</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="extra3" value="15">
+                            <label for="extra2">Regalo (+15 €)</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="extra4" value="10">
+                            <label for="extra2">Subscripcion (+10 €)</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <!-- Datos de contacto -->
+        <section class="datosContacto">
+            <h2>Datos de Contacto</h2>
+            <form id="formularioContacto">
+                <div class="inputVisual">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" maxlength="15" required>
+                </div>
+                <div class="inputVisual">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" maxlength="40" required>
+                </div>
+                <div class="inputVisual">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" pattern="[0-9]{9}" required>
+                </div>
+                <div class="inputVisual">
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" required>
+                </div>
+                <div class="botonTerminar">
+                    <div>
+                        <input type="checkbox" required>
+                        <label id="politicas">He leido las politicas de privacidad</label>
+                    </div>
+                    <button type="submit">Finalizar Compra</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="logoFoot">
+                <div class="cajaLogo">
+                    <img src="../images/logodeMomento.png" alt="">
+                </div>            
+            </div>
+            <div class="politicas">
+                <div class="direccion" id="ubicacion">
+                    <div>
+                        <h3>Puedes encontrarnos en</h3>
+                        <p> C/ Carretas #12  Madrid</p>
+                        <P> Tlf: 658 5258 256</P>
+                    </div>
+                    <div class="cajaRedes">
+                        <a href="https://www.instagram.com/">
+                            <img src="../images/instagram.png" alt="">
+                        </a>
+                        <a href="https://www.tiktok.com/es/">
+                            <img src="../images/tiktok.png" alt="">
+                        </a>
+                        <a href="https://www.youtube.com/?hl=es&gl=ES">                            
+                            <img src="../images/youTube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="privacidad">
+                    <h3>Politica de privacidad</h3>
+                    <p> A través de este sitio web no se recaban datos de carácter personal de las personas<br> 
+                        usuarias sin su conocimiento, ni se ceden a terceros. <br>
+                        <br>
+                        Con la finalidad de ofrecerle el mejor servicio y con el objeto de facilitar el uso,<br> 
+                        se analizan el número de páginas visitadas, el número de visitas, así como <br>
+                        la actividad de las persona visitantes y su frecuencia de utilización.<br> 
+                        A estos efectos, la Agencia Española de Protección de Datos (AEPD) <br>
+                        utiliza la información estadística elaborada por el Proveedor de Servicios de Internet.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/presupuesto.js"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

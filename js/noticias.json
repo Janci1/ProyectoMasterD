@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Los otakus empiezan a dominar el mundo",
+        "contenido": "En los últimos años, el sector de contenido japonés, como el anime, el manga y el cine, ha alcanzado un valor en exportaciones que compite con industrias tradicionales como la del acero y los semiconductores. Este tema ha sido recurrente en diversas conferencias gubernamentales recientes, donde se ha destacado el interés por esta industria. ",
+        "imagen": "../images/noticias/Rey.jpg",
+        "link": "https://somoskudasai.com/noticias/cultura-otaku/los-otakus-empiezan-a-dominar-el-mundo-anime/"
+    },
+    {
+        "titulo": "Tendencias de moda 2024",
+        "contenido": "El estilo otaku, una subcultura originada en Japón, está tomando el mundo por asalto con su creciente influencia en la moda, el entretenimiento y la cultura pop. Aunque durante mucho tiempo fue considerado un nicho, ha evolucionado para convertirse en un movimiento global que abarca mucho más que la simple afición por el anime y el manga.",
+        "imagen": "../images/noticias/imagenEntre.jpg",
+        "link": "https://www.mdzol.com/estilo/2023/11/16/el-estilo-otaku-mas-que-una-tendencia-una-cultura-en-crecimiento-376526.html"
+    },
+    {
+        "titulo": "Evento exclusivo para Otakus",
+        "contenido": "Madrid Otaku es el evento que Madrid esperaba. Manga, anime, cosplay, cultura japonesa, videojuegos y gaming, todo junto en un espacio único. Todas tus pasiones las podás encontrar al fin reunidas en Madrid Otaku. ¡Te esperamos el 11 y 12 de Junio en el Pabellón de Cristal del Recinto Ferial de la Casa de Campo de Madrid!",
+        "imagen": "../images/noticias/evento.jpg",
+        "link": "https://madridotaku.com/"
+    },
+    {
+        "titulo": "Celio lanza una colección inspirada en Arcane",
+        "contenido": "Celio sigue apostando por colecciones otakus y, en esta ocasión lo hace con una línea de moda inspirada en la serie de Riot, Arcane. La colección consta de un total de 5 prendas inspiradas en personajes de la serie! estaran por un tiempo limitado, lo que convierte las prendas en algo exclusivo y fugaz. puedes obtener las prendas en su web.",
+        "imagen": "../images/noticias/arcane.jpg",
+        "link": "https://www.celio.com/es-es/c/colaboraciones-arcane"
+    }
+]

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Quicksand:wght@300;500;700&family=Righteous&display=swap');
+:root{    
+--font-family: 'Barlow', sans-serif;
+--font-family2: 'Quicksand', sans-serif;
+--font-family3: 'Righteous';
+--ColorPrincipal: #FF731D;
+--ColorSecundario: #c79f6e;
+--ColorFondo: #5F9DF7;
+--ColorBotones: #1746A2;
+--ColorTerciario: #FDF0E0;
+--sm: 14px;
+--md: 16px;
+--lg: 2vw;
+}  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+
+
+/*Navegador de cabecera*/
+header{
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+nav{
+    width: 100%;
+    }
+.imagenesContenido{
+    height: 25px;
+    width: 25px;
+    cursor: pointer
+}
+.logoPrincipal{
+    width: auto;
+    height: 45px;
+}
+
+.cabeceraDeContenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.buscadorMapa ul{
+    list-style: none;
+    display: flex;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.menuDePerfil ul{
+    list-style: none;
+    display: flex;
+    width: 170px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+#contadorCesta {
+    display: none;
+    position: absolute;
+    background: red;
+    color: white;
+    font-size: 11px;
+    padding: 4px;
+    border-radius: 50%;
+    min-width: 20px;
+    text-align: center;
+}
+
+ /*Paginas del navegador*/
+.zonaNavegadorNovedades{
+    margin: 1vw 0;
+    width: 100%;
+}
+.navegadorDeContenidos ul{
+    list-style: none;
+    display: flex; 
+    padding: 0px;
+    justify-content: space-evenly;   
+}
+.contenidos{
+    font-family: var(--font-family2);
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 4px;
+    font-size: 1vw;
+    color: var(--ColorSecundario);
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.contenidos:hover{
+    border: 1px solid var(--ColorPrincipal);
+    color: var(--ColorPrincipal);
+}
+
+.navegadorSeleccionado{
+    font-family: var(--font-family2);
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 4px;
+    font-size: 1vw;
+    color: var(--ColorSecundario);
+    border: 1px solid var(--ColorPrincipal);
+    color: var(--ColorPrincipal);
+    border-radius: 8px;
+}
+/*inicio de main*/
+section {
+    padding: 3vw 0;
+}
+
+
+/*Seccion Contacto*/
+
+/*Titulo*/
+.titulo{
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 59px;
+    padding: 2vw 0;
+    font-family: var(--font-family2);
+    color: var(--ColorSecundario);
+}
+
+.contenedorGeneral{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*zona del mapa*/
+
+.direccionCliente{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.direccionCliente h3{
+    font-size: 2.3vw;
+    font-family: var(--font-family2);
+    color: var(--ColorSecundario);
+    margin: 1vw;
+}
+.inputMapa{
+    width: 100%;
+    margin: 1vw 0;
+}
+
+.inputMapa input{
+    width: 63%;
+    margin: 1vw;
+    height: 2.5vw;
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+}
+#calcularRuta{
+    background-color: var(--ColorPrincipal);
+    border-radius: 0.5vw;
+    width: 12vw;
+    height: 2.4vw;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 1vw;
+}
+
+
+.contenedorMapa{
+    display: flex;
+    width: 65vw;
+    justify-content: space-evenly;
+}
+
+
+#mapa, #street-view {
+    border: solid 5px var(--ColorSecundario);
+    border-radius: 1vw;
+    width: 30vw;
+    height: 40vw;
+}
+
+.rutaCliente{
+    width: 30vw;
+    text-align: center;
+}
+.rutaCliente h3{
+    font-size: 2.3vw;
+    font-family: var(--font-family2);
+    color: var(--ColorSecundario);
+    margin: 1vw;
+}
+
+.datosNegocio{
+    height: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.datosNegocio h2{
+    font-size: 2.3vw;
+    font-family: var(--font-family2);
+    color: var(--ColorSecundario);
+    margin: 1vw;
+}
+
+.datosNegocio p{
+    font-family: var(--font-family2);
+    font-size: 1.5vw;
+    margin: 1vw;
+}
+
+/*Seccion footer*/
+.footer{
+    display: flex;
+    width: 100%;
+    height: 40vw;
+    background-image: url(../images/fondoFooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.logoFoot{
+    margin: 0 8vw;
+}
+
+.cajaLogo img{
+    width: 20vw
+}
+
+.politicas{
+    margin: 0 8vw;
+    box-shadow: 1vw 0.5vw 0.5vw black;
+    border-radius: 3vw;
+    width: fit-content;
+    background-color: var(--ColorPrincipal);
+    display: flex;
+    font-family: var(--font-family2);
+    font-size: 1.2vw;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.direccion{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1vw 4vw;
+}
+.cajaRedes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cajaRedes img{
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+
+}
+
+.privacidad{
+    padding: 1vw 4vw;
+}

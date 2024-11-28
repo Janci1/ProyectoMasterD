@@ -3,7 +3,7 @@
         "nombre": "Sudadera BNH",
         "descripcion": "Sudadera inspirada en el anime Boku no Hero Academia, perfecta para los fanáticos.",
         "precio": 45,
-        "imagen": "../../images/imagenes/producto/sudadera1.jpg",
+        "imagen": "images/imagenes/producto/sudadera1.jpg",
         "tipo": "Sudaderas",
         "ventas": 142
     },
@@ -11,7 +11,7 @@
         "nombre": "Kimono Grulla",
         "descripcion": "Kimono con diseño elegante inspirado en la grulla japonesa.",
         "precio": 60,
-        "imagen": "../../images/imagenes/producto/kimono1.jpg",
+        "imagen": "images/imagenes/producto/kimono1.jpg",
         "tipo": "Kimonos",
         "ventas": 175
     },
@@ -19,7 +19,7 @@
         "nombre": "Camiseta Goku",
         "descripcion": "Camiseta con diseño exclusivo de Goku en estilo clásico.",
         "precio": 25,
-        "imagen": "../../images/imagenes/producto/camiseta1.jpg",
+        "imagen": "images/imagenes/producto/camiseta1.jpg",
         "tipo": "Camisetas",
         "ventas": 164
     },
@@ -27,7 +27,7 @@
         "nombre": "Kimono Mosaico",
         "descripcion": "Kimono con patrones inspirados en mosaicos tradicionales japoneses.",
         "precio": 60,
-        "imagen": "../../images/imagenes/producto/kimono2.jpg",
+        "imagen": "images/imagenes/producto/kimono2.jpg",
         "tipo": "Kimonos",
         "ventas": 121
     },
@@ -35,7 +35,7 @@
         "nombre": "Sudadera BNH2",
         "descripcion": "Sudadera con temática de Boku no Hero Academia en colores blanco y negro.",
         "precio": 45,
-        "imagen": "../../images/imagenes/producto/sudadera2.jpg",
+        "imagen": "images/imagenes/producto/sudadera2.jpg",
         "tipo": "Sudaderas",
         "ventas": 112
     },
@@ -43,7 +43,7 @@
         "nombre": "Sudadera Akatsuki",
         "descripcion": "Sudadera con el diseño icónico de la nube roja del clan Akatsuki.",
         "precio": 40,
-        "imagen": "../../images/imagenes/producto/sudadera3.jpg",
+        "imagen": "images/imagenes/producto/sudadera3.jpg",
         "tipo": "Sudaderas",
         "ventas": 126
     },
@@ -51,7 +51,7 @@
         "nombre": "Sudadera Vikinga",
         "descripcion": "Sudadera con temática nórdica y diseños vikingos.",
         "precio": 47,
-        "imagen": "../../images/imagenes/producto/sudadera4.jpg",
+        "imagen": "images/imagenes/producto/sudadera4.jpg",
         "tipo": "Sudaderas",
         "ventas": 173
     },
@@ -59,7 +59,7 @@
         "nombre": "Sudadera Trafalgar",
         "descripcion": "Sudadera inspirada en el icónico personaje Trafalgar D. Water Law.",
         "precio": 46,
-        "imagen": "../../images/imagenes/producto/sudadera5.jpg",
+        "imagen": "images/imagenes/producto/sudadera5.jpg",
         "tipo": "Sudaderas",
         "ventas": 149
     },
@@ -67,7 +67,7 @@
         "nombre": "Kimono Blanco",
         "descripcion": "Kimono minimalista con diseño blanco puro, ideal para eventos formales.",
         "precio": 65,
-        "imagen": "../../images/imagenes/producto/kimono3.jpg",
+        "imagen": "images/imagenes/producto/kimono3.jpg",
         "tipo": "Kimonos",
         "ventas": 115
     },
@@ -75,7 +75,7 @@
         "nombre": "Kimono Agua",
         "descripcion": "Kimono con patrones fluidos inspirados en el movimiento del agua.",
         "precio": 63,
-        "imagen": "../../images/imagenes/producto/kimono4.jpg",
+        "imagen": "images/imagenes/producto/kimono4.jpg",
         "tipo": "Kimonos",
         "ventas": 118
     },
@@ -83,7 +83,7 @@
         "nombre": "Kimono Ying Yang",
         "descripcion": "Kimono que representa el equilibrio entre las energías opuestas Ying y Yang.",
         "precio": 55,
-        "imagen": "../../images/imagenes/producto/kimono5.jpg",
+        "imagen": "images/imagenes/producto/kimono5.jpg",
         "tipo": "Kimonos",
         "ventas": 198
     },
@@ -91,7 +91,7 @@
         "nombre": "Camiseta Goku2",
         "descripcion": "Camiseta con un diseño alternativo de Goku, ideal para coleccionistas.",
         "precio": 24,
-        "imagen": "../../images/imagenes/producto/camiseta2.jpg",
+        "imagen": "images/imagenes/producto/camiseta2.jpg",
         "tipo": "Camisetas",
         "ventas": 154
     },
@@ -99,7 +99,7 @@
         "nombre": "Camiseta Nezuko",
         "descripcion": "Camiseta inspirada en Nezuko Kamado de Demon Slayer.",
         "precio": 22,
-        "imagen": "../../images/imagenes/producto/camiseta3.jpg",
+        "imagen": "images/imagenes/producto/camiseta3.jpg",
         "tipo": "Camisetas",
         "ventas": 189
     },
@@ -107,7 +107,7 @@
         "nombre": "Camiseta Luffi",
         "descripcion": "Camiseta con diseño de Luffy, protagonista de One Piece.",
         "precio": 26,
-        "imagen": "../../images/imagenes/producto/camiseta4.jpg",
+        "imagen": "images/imagenes/producto/camiseta4.jpg",
         "tipo": "Camisetas",
         "ventas": 177
     },
@@ -115,7 +115,7 @@
         "nombre": "Camiseta Inosuke",
         "descripcion": "Camiseta con diseño único de Inosuke Hashibira de Demon Slayer.",
         "precio": 23,
-        "imagen": "../../images/imagenes/producto/camiseta5.jpg",
+        "imagen": "images/imagenes/producto/camiseta5.jpg",
         "tipo": "Camisetas",
         "ventas": 123
     }
